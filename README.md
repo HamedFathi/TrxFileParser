@@ -1,4 +1,4 @@
-![documents](https://user-images.githubusercontent.com/8418700/140908176-4541457e-862e-4cbc-a946-139fb75f211c.png)
+![search](https://user-images.githubusercontent.com/8418700/140909729-b376f550-469b-426d-8d7d-b78cfee45350.png)
 
 A `Trx` file is nothing but a Visual Studio unit test result file extension. This file is in XML format. `TrxFileParser` helps you to parse it.
 
