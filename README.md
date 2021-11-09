@@ -32,4 +32,14 @@ string markdown = testRun.ToMarkdown();
 ```
 
 <hr/>
+
+### [Nuget](https://www.nuget.org/packages/TrxFileParser/)
+
+```
+Install-Package TrxFileParser
+
+dotnet add package TrxFileParser
+```
+
+<hr/>
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
