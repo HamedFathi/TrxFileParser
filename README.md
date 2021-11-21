@@ -35,6 +35,9 @@ string markdown = testRun.ToMarkdown();
 
 ### [Nuget](https://www.nuget.org/packages/TrxFileParser/)
 
+![Nuget](https://img.shields.io/nuget/dt/TrxFileParser)
+![Nuget](https://img.shields.io/nuget/v/TrxFileParser)
+
 ```
 Install-Package TrxFileParser
 
