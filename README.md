@@ -35,6 +35,7 @@ string markdown = testRun.ToMarkdown();
 
 ### [Nuget](https://www.nuget.org/packages/TrxFileParser/)
 
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://opensource.org/licenses/MIT)
 ![Nuget](https://img.shields.io/nuget/v/TrxFileParser)
 ![Nuget](https://img.shields.io/nuget/dt/TrxFileParser)
 
