@@ -9,5 +9,8 @@ namespace TrxFileParser.Models
 
         [XmlElement("StdErr")]
         public string StdErr { get; set; }
+
+        [XmlElement("ErrorInfo")]
+        public ErrorInfo ErrorInfo { get; set; }
     }
 }
