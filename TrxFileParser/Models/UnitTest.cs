@@ -13,10 +13,10 @@ namespace TrxFileParser.Models
         [XmlAttribute("storage")]
         public string Storage { get; set; }
 
-        [XmlElement("Execution")]
+        [XmlElement("execution")]
         public Execution Execution { get; set; }
 
-        [XmlElement("TestMethod")]
+        [XmlElement("testMethod")]
         public TestMethod TestMethod { get; set; }
     }
 }

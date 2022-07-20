@@ -30,17 +30,18 @@ namespace TrxFileParser
             xDoc.Save(filePath);
         }
 
-        public static string ToMarkdown(this TestRun testRun)
+        public static string ToMarkdown(this TestRun testRun, Header header = Header.H2)
         {
             var sb = new StringBuilder();
             var groups = testRun.Results.UnitTestResults
                 .GroupBy(x => x.TestId)
                 .ToList();
+            var h = new string('#', (int)header);
             foreach (var group in groups)
             {
                 var testName = @group.FirstOrDefault()?.TestName;
                 var name = testName?.Substring(0, testName.IndexOf('('));
-                sb.AppendLine($"## {name}");
+                sb.AppendLine($"{h} {name}");
                 var i = 0;
                 foreach (var g in @group.OrderBy(x => x.StartTime))
                 {

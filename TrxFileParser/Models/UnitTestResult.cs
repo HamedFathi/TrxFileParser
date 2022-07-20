@@ -37,7 +37,7 @@ namespace TrxFileParser.Models
         [XmlAttribute("outcome")]
         public string Outcome { get; set; }
 
-        [XmlElement("Output")]
+        [XmlElement("output")]
         public Output Output { get; set; }
     }
 }

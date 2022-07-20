@@ -7,13 +7,13 @@ namespace TrxFileParser.Models
         [XmlAttribute("total")]
         public int Total { get; set; }
 
-        [XmlAttribute("Executed")]
+        [XmlAttribute("executed")]
         public int Executed { get; set; }
 
         [XmlAttribute("passed")]
         public int Passed { get; set; }
 
-        [XmlAttribute("executed")]
+        [XmlAttribute("failed")]
         public int Failed { get; set; }
 
         [XmlAttribute("error")]

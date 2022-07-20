@@ -7,7 +7,7 @@ namespace TrxFileParser.Models
         [XmlAttribute("outcome")]
         public string Outcome { get; set; }
 
-        [XmlElement("Counters")]
+        [XmlElement("counters")]
         public Counters Counters { get; set; }
     }
 }
