@@ -14,16 +14,16 @@ namespace TrxFileParser.Models
         [XmlAttribute("name")]
         public string Name { get; set; }
 
-        [XmlElement("times")]
+        [XmlElement("Times")]
         public Times Times { get; set; }
 
-        [XmlElement("results")]
+        [XmlElement("Results")]
         public Results Results { get; set; }
 
-        [XmlElement("resultSummary")]
+        [XmlElement("ResultSummary")]
         public ResultSummary ResultSummary { get; set; }
 
-        [XmlElement("testDefinitions")]
+        [XmlElement("TestDefinitions")]
         public TestDefinitions TestDefinitions { get; set; }
     }
 }

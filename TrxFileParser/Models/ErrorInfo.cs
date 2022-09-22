@@ -4,10 +4,10 @@ namespace TrxFileParser.Models
 {
     public class ErrorInfo
     {
-        [XmlElement("message")]
+        [XmlElement("Message")]
         public string Message { get; set; }
 
-        [XmlElement("stackTrace")]
+        [XmlElement("StackTrace")]
         public string StackTrace { get; set; }
     }
 }

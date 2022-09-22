@@ -4,13 +4,13 @@ namespace TrxFileParser.Models
 {
     public class Output
     {
-        [XmlElement("stdOut")]
+        [XmlElement("StdOut")]
         public string StdOut { get; set; }
 
-        [XmlElement("stdErr")]
+        [XmlElement("StdErr")]
         public string StdErr { get; set; }
 
-        [XmlElement("errorInfo")]
+        [XmlElement("ErrorInfo")]
         public ErrorInfo ErrorInfo { get; set; }
     }
 }
