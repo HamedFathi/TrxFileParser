@@ -30,6 +30,18 @@ namespace TrxFileParser
             xDoc.Save(filePath);
         }
 
+        public static TestRun DeserializeContent(string fileContent)
+        {
+            var xmlNamespaceRegex = new Regex("xmlns=\".*?\" ?");
+            var contentWithoutNamespace = xmlNamespaceRegex.Replace(fileContent, string.Empty);
+            var xs = new XmlSerializer(typeof(TestRun));
+            using (var reader = new StringReader(contentWithoutNamespace))
+            {
+                var testRun = (TestRun)xs.Deserialize(reader);
+                return testRun;
+            }
+        }
+
         public static string ToMarkdown(this TestRun testRun, Header header = Header.H2)
         {
             var sb = new StringBuilder();
