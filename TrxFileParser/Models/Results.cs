@@ -5,7 +5,7 @@ namespace TrxFileParser.Models
 {
     public class Results
     {
-        [XmlElement("unitTestResult")]
+        [XmlElement("UnitTestResult")]
         public List<UnitTestResult> UnitTestResults { get; set; }
     }
 }

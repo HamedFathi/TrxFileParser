@@ -5,7 +5,7 @@ namespace TrxFileParser.Models
 {
     public class TestDefinitions
     {
-        [XmlElement("unitTests")]
+        [XmlElement("UnitTest")]
         public List<UnitTest> UnitTests { get; set; }
     }
 }
