@@ -40,7 +40,13 @@ namespace TrxFileParser.Models
         [XmlAttribute("outcome")]
         public string Outcome { get; set; }
 
-        [XmlElement("Output")]
+        [XmlAttribute("resultType")]
+        public string ResultType { get; set; }
+
+        [XmlAttribute("dataRowInfo")]
+        public string DataRowInfo { get; set; }
+
+		[XmlElement("Output")]
         public Output Output { get; set; }
 
         [XmlElement("InnerResults")]

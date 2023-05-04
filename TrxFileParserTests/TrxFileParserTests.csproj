@@ -20,7 +20,9 @@
 
   <ItemGroup>
     <None Remove="SampleTrxFiles\SingleTestPassed.trx" />
+    <None Remove="SampleTrxFiles\TestWithCases.trx" />
     <EmbeddedResource Include="SampleTrxFiles\SingleTestPassed.trx" />
+    <EmbeddedResource Include="SampleTrxFiles\TestWithCases.trx" />
   </ItemGroup>
 
   <ItemGroup>
