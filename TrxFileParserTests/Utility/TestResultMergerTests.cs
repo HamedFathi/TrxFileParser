@@ -34,7 +34,7 @@ public class TestResultMergerTests
             });
     }
 
-    static string LoadSampleTrxFile(string name)
+    internal static string LoadSampleTrxFile(string name)
     {
         var provider = new EmbeddedFileProvider(Assembly.GetExecutingAssembly(), "TrxFileParserTests.SampleTrxFiles");
         var file = provider.GetDirectoryContents("/").Single(f => f.Name == name);
