@@ -19,8 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="SampleTrxFiles\FrameworkFailure.trx" />
     <None Remove="SampleTrxFiles\SingleTestPassed.trx" />
     <None Remove="SampleTrxFiles\TestWithCases.trx" />
+    <EmbeddedResource Include="SampleTrxFiles\FrameworkFailure.trx" />
     <EmbeddedResource Include="SampleTrxFiles\SingleTestPassed.trx" />
     <EmbeddedResource Include="SampleTrxFiles\TestWithCases.trx" />
   </ItemGroup>
