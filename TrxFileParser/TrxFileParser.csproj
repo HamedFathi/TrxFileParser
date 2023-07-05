@@ -1,14 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Hamed Fathi</Authors>
     <Company />
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <Version>4.1.0</Version>
+    <Version>4.2.0</Version>
     <PackageProjectUrl>https://github.com/HamedFathi/TrxFileParser</PackageProjectUrl>
     <RepositoryUrl>https://github.com/HamedFathi/TrxFileParser</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
 </Project>
