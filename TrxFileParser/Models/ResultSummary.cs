@@ -9,5 +9,8 @@ namespace TrxFileParser.Models
 
         [XmlElement("Counters")]
         public Counters Counters { get; set; }
+
+        [XmlElement("RunInfos")]
+        public RunInfos RunInfos { get; set; }
     }
 }
