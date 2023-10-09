@@ -1,5 +1,5 @@
 
-> **For those who use this library, I highly recommend trying [VSTest](https://github.com/HamedFathi/VSTest). This library supports more details.**
+> **For those who use this library, I highly recommend trying [VSTest](https://github.com/HamedStack/HamedStack.VSTest). This library supports more details.**
 
 ![search](https://user-images.githubusercontent.com/8418700/140909729-b376f550-469b-426d-8d7d-b78cfee45350.png)
 
