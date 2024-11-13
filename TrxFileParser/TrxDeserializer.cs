@@ -2,7 +2,6 @@
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Xml.Linq;
 using System.Xml.Serialization;
 using TrxFileParser.Models;
 
@@ -12,22 +11,9 @@ namespace TrxFileParser
     {
         public static TestRun Deserialize(string filePath)
         {
-            RemoveXmlnsAndRewriteFile(filePath);
-            TestRun entity;
-            var xs = new XmlSerializer(typeof(TestRun));
-            using (Stream sr = File.OpenRead(filePath))
-            {
-                entity = (TestRun)xs.Deserialize(sr);
-            }
-            return entity;
-        }
-
-        private static void RemoveXmlnsAndRewriteFile(string filePath)
-        {
             var rgx = new Regex("xmlns=\".*?\" ?");
             var fileContent = rgx.Replace(File.ReadAllText(filePath), string.Empty);
-            var xDoc = XDocument.Parse(fileContent);
-            xDoc.Save(filePath);
+            return DeserializeContent(fileContent);
         }
 
         public static TestRun DeserializeContent(string fileContent)
