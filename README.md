@@ -1,6 +1,3 @@
-> [!IMPORTANT] 
-> Introducing **HamedStack**! For all my latest libraries, visit: [Explore HamedStack](https://github.com/HamedStack). Replacements and updates are available at the link. Thank you for your support! The new version of this library is accessible via [HamedStack.VSTest](https://github.com/HamedStack/HamedStack.VSTest)
----
 
 ![search](https://user-images.githubusercontent.com/8418700/140909729-b376f550-469b-426d-8d7d-b78cfee45350.png)
 
